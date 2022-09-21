@@ -5,6 +5,7 @@ public class operation {
         String operation = scanner.nextLine();
         int a = scanner.nextInt();
         int b = scanner.nextInt();
+        System.out.print("Result: ");
         if (operation.equals("sum")){
         System.out.println(a + b);}
         else if (operation.equals("mul")) {
@@ -15,5 +16,6 @@ public class operation {
         }
         else {
             System.out.println(a - b);}
+
     }
 }
